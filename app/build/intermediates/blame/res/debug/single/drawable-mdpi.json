@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_food.png",
+        "source": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\src\\main\\res\\drawable-mdpi\\ic_food.png"
+    },
+    {
+        "merged": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_movie.png",
+        "source": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\src\\main\\res\\drawable-mdpi\\ic_movie.png"
+    },
+    {
+        "merged": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_travel.png",
+        "source": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\src\\main\\res\\drawable-mdpi\\ic_travel.png"
+    },
+    {
+        "merged": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_discount.png",
+        "source": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\src\\main\\res\\drawable-mdpi\\ic_discount.png"
+    }
+]

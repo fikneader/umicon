@@ -1,0 +1,7 @@
+#Tue Feb 21 13:04:50 ICT 2017
+base.0=C\:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_848a63a866830816ea3b3b4ed27a5196b1bf642f
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_2d66f5bcec007fa13998e753f85e7a364dccb84e\\classes.dex
+base.1=C\:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_2d66f5bcec007fa13998e753f85e7a364dccb84e
+file.0=C\:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_848a63a866830816ea3b3b4ed27a5196b1bf642f\\classes.dex
