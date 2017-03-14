@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "246152732088",
+    "firebase_url": "https://umicon-1ac71.firebaseio.com",
+    "project_id": "umicon-1ac71",
+    "storage_bucket": "umicon-1ac71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246152732088:android:5f0462354ce2f025",
+        "android_client_info": {
+          "package_name": "com.ngeartstudio.umicon.umicon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246152732088-c99ro8opqqkpca4b8eh5qrdq6qv9f0dd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt9K-VXvIgDJn7bTuSOuTnpwX67Pcd1Yk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:2:1-34:12
+ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:2:1-63:12
 	package
 		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:3:5-45
 		INJECTED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml
@@ -13,86 +13,313 @@ ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManife
 	android:versionCode
 		INJECTED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\fikneader\.android\build-cache\90d15be35fd5fafe5b88ba6b35d1b9b0a005db75\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] C:\Users\fikneader\.android\build-cache\e6e8ae168fc989fb37f4c29157ce1f503d083b8e\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:7:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:8:5-72
+	android:name
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:8:22-69
 application
-ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:5:5-32:19
-MERGED from [com.android.support:design:25.1.0] C:\Users\fikneader\Documents\Umicon\Umicon\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\fikneader\Documents\Umicon\Umicon\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\fikneader\Documents\Umicon\Umicon\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\fikneader\Documents\Umicon\Umicon\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:transition:25.1.0] C:\Users\fikneader\Documents\Umicon\Umicon\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:25.1.0] C:\Users\fikneader\Documents\Umicon\Umicon\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\fikneader\Documents\Umicon\Umicon\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\fikneader\Documents\Umicon\Umicon\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\fikneader\Documents\Umicon\Umicon\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\fikneader\Documents\Umicon\Umicon\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.1.0] C:\Users\fikneader\Documents\Umicon\Umicon\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\AndroidManifest.xml:25:5-20
-MERGED from [com.github.bluejamesbond:textjustify-android:2.1.6] C:\Users\fikneader\Documents\Umicon\Umicon\app\build\intermediates\exploded-aar\com.github.bluejamesbond\textjustify-android\2.1.6\AndroidManifest.xml:40:5-20
-MERGED from [com.github.clans:fab:1.6.2] C:\Users\fikneader\Documents\Umicon\Umicon\app\build\intermediates\exploded-aar\com.github.clans\fab\1.6.2\AndroidManifest.xml:12:5-20
+ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:10:5-61:19
+MERGED from [com.android.support:design:24.2.1] C:\Users\fikneader\.android\build-cache\f78b935570fd419306a004297596a8994e5648af\output\AndroidManifest.xml:22:5-20
+MERGED from [com.github.bluejamesbond:textjustify-android:2.1.6] C:\Users\fikneader\.android\build-cache\2f1c683b1fb920a82ebe71265fcb7dbdff951066\output\AndroidManifest.xml:40:5-20
+MERGED from [com.github.clans:fab:1.6.2] C:\Users\fikneader\.android\build-cache\332c8dc41fa1e754ed66d39e76b8891f21a4bbc2\output\AndroidManifest.xml:12:5-20
+MERGED from [com.google.firebase:firebase-auth:9.0.2] C:\Users\fikneader\.android\build-cache\e3af44bc8157c3f04a5cec43e6f7bdcab340ac07\output\AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-auth-common:9.0.2] C:\Users\fikneader\.android\build-cache\14d1c827fb3a08fbaaa3c46a2bd92fadddf71fd9\output\AndroidManifest.xml:20:5-21:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\fikneader\.android\build-cache\65b0cd07c9233c85a77a61bb1a468d7c02bd9964\output\AndroidManifest.xml:28:5-48:19
+MERGED from [com.android.support:appcompat-v7:25.1.1] C:\Users\fikneader\.android\build-cache\d4848088e5541e466ac20beaad8df57679f655fb\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] C:\Users\fikneader\.android\build-cache\55a7e1b27833acf51fb2536294694f114afb117e\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.1] C:\Users\fikneader\.android\build-cache\15ea8d9b3062900bd5aa21d241d2435efc3bef86\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:cardview-v7:25.0.0] C:\Users\fikneader\.android\build-cache\fa627191a91c78c68ed99c6fa5b2205e68297a1b\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:customtabs:25.0.0] C:\Users\fikneader\.android\build-cache\db48030c65056664f1aea0a63807ce20d7618c79\output\AndroidManifest.xml:22:5-20
+MERGED from [net.steamcrafted:load-toast:1.0.10] C:\Users\fikneader\.android\build-cache\7ec13ecc2acab54b0572133fb56392159ea2faec\output\AndroidManifest.xml:11:5-14:19
+MERGED from [com.google.firebase:firebase-core:9.0.2] C:\Users\fikneader\.android\build-cache\ecbf842cc22b1f1b1aa126731d5c49f8e7ca062e\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\fikneader\.android\build-cache\90d15be35fd5fafe5b88ba6b35d1b9b0a005db75\output\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] C:\Users\fikneader\.android\build-cache\e6e8ae168fc989fb37f4c29157ce1f503d083b8e\output\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.android.gms:play-services-base:9.0.2] C:\Users\fikneader\.android\build-cache\3de7455cd9f240a1db091d327555d97f2a32b58c\output\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-common:9.0.2] C:\Users\fikneader\.android\build-cache\ac4dbb4f763b389d5f428bb93babce2846f0e772\output\AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-tasks:9.0.2] C:\Users\fikneader\.android\build-cache\7c3d0188c869c46320e38a2f21c43bdf93859575\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\fikneader\.android\build-cache\3a149aa6e16596284c9ece8a94b09df23251b77f\output\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:25.1.1] C:\Users\fikneader\.android\build-cache\3d987a1ae43c48f90d050620898827bac389d1f3\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.1] C:\Users\fikneader\.android\build-cache\0dabcedf321e6f5f3a3a72c8edd9bc10c52ed029\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.1] C:\Users\fikneader\.android\build-cache\bfd1de253b321eff09a48496982135edf92b998f\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.1] C:\Users\fikneader\.android\build-cache\7f4da9c2fd23484c443aff75830f82adf3b97011\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.1] C:\Users\fikneader\.android\build-cache\909259b6ade528322bab76f68873d04c50681111\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.1] C:\Users\fikneader\.android\build-cache\78c44565eb897b46c7f606a9c13524c7a1c18b20\output\AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:13:9-41
 	android:supportsRtl
-		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:14:9-35
 	android:allowBackup
-		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:11:9-35
 	android:icon
-		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:7:9-44
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:12:9-44
 	android:theme
-		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:10:9-68
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:15:9-68
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:16:9-107
+	android:value
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:16:66-105
+	android:name
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:16:20-65
 activity#com.ngeartstudio.umicon.umicon.SplashScreen
-ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:11:9-17:20
+ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:17:9-23:20
 	android:name
-		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:11:19-47
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:17:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:12:13-16:29
+ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:13:17-69
+ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:13:25-66
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:15:17-77
+ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:15:27-74
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:21:27-74
 activity#com.ngeartstudio.umicon.umicon.WelcomeActivity
-ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:18:9-62
+ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:24:9-53
 	android:name
-		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:18:19-50
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:24:19-50
 activity#com.ngeartstudio.umicon.umicon.MainActivity
-ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:19:9-28:20
+ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:25:9-34:20
 	android:label
-		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:21:13-56
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:27:13-56
 	android:theme
-		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:22:13-72
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:28:13-72
 	android:name
-		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:20:13-41
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:26:13-41
+activity#com.facebook.FacebookActivity
+ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:35:9-38:48
+MERGED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\fikneader\.android\build-cache\65b0cd07c9233c85a77a61bb1a468d7c02bd9964\output\AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:38:13-45
+	android:configChanges
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:36:13-114
+	android:theme
+		ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\fikneader\.android\build-cache\65b0cd07c9233c85a77a61bb1a468d7c02bd9964\output\AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:35:19-63
+activity#com.facebook.CustomTabActivity
+ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:39:9-48:20
+	android:exported
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:41:13-36
+	android:name
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:40:13-58
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:42:13-47:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:43:17-69
+	android:name
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:43:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:44:17-76
+	android:name
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:44:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:45:17-78
+	android:name
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:45:27-75
+data
+ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:46:17-75
+	android:scheme
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:46:23-72
 activity#com.ngeartstudio.umicon.umicon.DagangActivity
-ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:29:9-52
+ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:49:9-52
 	android:name
-		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:29:19-49
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:49:19-49
 activity#com.ngeartstudio.umicon.umicon.ManufakturActivity
-ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:30:9-56
+ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:50:9-56
 	android:name
-		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:30:19-53
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:50:19-53
+activity#com.ngeartstudio.umicon.umicon.LoginActivity
+ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:52:9-58:20
+	android:name
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:53:13-42
+activity#com.ngeartstudio.umicon.umicon.ResetPasswordActivity
+ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:59:9-59
+	android:name
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:59:19-56
+activity#com.ngeartstudio.umicon.umicon.SignupActivity
+ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:60:9-61
+	android:name
+		ADDED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml:60:19-49
 uses-sdk
 INJECTED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:25.1.0] C:\Users\fikneader\Documents\Umicon\Umicon\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\fikneader\Documents\Umicon\Umicon\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\fikneader\Documents\Umicon\Umicon\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\fikneader\Documents\Umicon\Umicon\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:recyclerview-v7:25.1.0] C:\Users\fikneader\Documents\Umicon\Umicon\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.1.0] C:\Users\fikneader\Documents\Umicon\Umicon\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.1.0] C:\Users\fikneader\Documents\Umicon\Umicon\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\fikneader\Documents\Umicon\Umicon\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\fikneader\Documents\Umicon\Umicon\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\fikneader\Documents\Umicon\Umicon\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\fikneader\Documents\Umicon\Umicon\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.1.0] C:\Users\fikneader\Documents\Umicon\Umicon\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.github.bluejamesbond:textjustify-android:2.1.6] C:\Users\fikneader\Documents\Umicon\Umicon\app\build\intermediates\exploded-aar\com.github.bluejamesbond\textjustify-android\2.1.6\AndroidManifest.xml:36:5-38:41
-MERGED from [com.github.clans:fab:1.6.2] C:\Users\fikneader\Documents\Umicon\Umicon\app\build\intermediates\exploded-aar\com.github.clans\fab\1.6.2\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:24.2.1] C:\Users\fikneader\.android\build-cache\f78b935570fd419306a004297596a8994e5648af\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:24.2.1] C:\Users\fikneader\.android\build-cache\53e1953e7af92a8c23f1794b8a63b8dbaaca6005\output\AndroidManifest.xml:20:5-43
+MERGED from [com.github.bluejamesbond:textjustify-android:2.1.6] C:\Users\fikneader\.android\build-cache\2f1c683b1fb920a82ebe71265fcb7dbdff951066\output\AndroidManifest.xml:36:5-38:41
+MERGED from [com.github.clans:fab:1.6.2] C:\Users\fikneader\.android\build-cache\332c8dc41fa1e754ed66d39e76b8891f21a4bbc2\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.firebase:firebase-auth:9.0.2] C:\Users\fikneader\.android\build-cache\e3af44bc8157c3f04a5cec43e6f7bdcab340ac07\output\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-common:9.0.2] C:\Users\fikneader\.android\build-cache\14d1c827fb3a08fbaaa3c46a2bd92fadddf71fd9\output\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-module:9.0.2] C:\Users\fikneader\.android\build-cache\44f3472c37cf86f1c0d1d1a8ab2689995cae5dc6\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database:9.0.2] C:\Users\fikneader\.android\build-cache\cab72e89a72920bbcaa583017973f7cafa2c70b1\output\AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-database-connection:9.0.2] C:\Users\fikneader\.android\build-cache\cda6b4ccd7cde1a96ee32413f5f2394d68598336\output\AndroidManifest.xml:5:5-43
+MERGED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\fikneader\.android\build-cache\65b0cd07c9233c85a77a61bb1a468d7c02bd9964\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:25.1.1] C:\Users\fikneader\.android\build-cache\d4848088e5541e466ac20beaad8df57679f655fb\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] C:\Users\fikneader\.android\build-cache\55a7e1b27833acf51fb2536294694f114afb117e\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.1] C:\Users\fikneader\.android\build-cache\15ea8d9b3062900bd5aa21d241d2435efc3bef86\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:cardview-v7:25.0.0] C:\Users\fikneader\.android\build-cache\fa627191a91c78c68ed99c6fa5b2205e68297a1b\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:customtabs:25.0.0] C:\Users\fikneader\.android\build-cache\db48030c65056664f1aea0a63807ce20d7618c79\output\AndroidManifest.xml:20:5-44
+MERGED from [net.steamcrafted:load-toast:1.0.10] C:\Users\fikneader\.android\build-cache\7ec13ecc2acab54b0572133fb56392159ea2faec\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-core:9.0.2] C:\Users\fikneader\.android\build-cache\ecbf842cc22b1f1b1aa126731d5c49f8e7ca062e\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\fikneader\.android\build-cache\90d15be35fd5fafe5b88ba6b35d1b9b0a005db75\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] C:\Users\fikneader\.android\build-cache\e6e8ae168fc989fb37f4c29157ce1f503d083b8e\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.0.2] C:\Users\fikneader\.android\build-cache\3de7455cd9f240a1db091d327555d97f2a32b58c\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.0.2] C:\Users\fikneader\.android\build-cache\ac4dbb4f763b389d5f428bb93babce2846f0e772\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.0.2] C:\Users\fikneader\.android\build-cache\7c3d0188c869c46320e38a2f21c43bdf93859575\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\fikneader\.android\build-cache\3a149aa6e16596284c9ece8a94b09df23251b77f\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:25.1.1] C:\Users\fikneader\.android\build-cache\3d987a1ae43c48f90d050620898827bac389d1f3\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.1] C:\Users\fikneader\.android\build-cache\0dabcedf321e6f5f3a3a72c8edd9bc10c52ed029\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.1] C:\Users\fikneader\.android\build-cache\bfd1de253b321eff09a48496982135edf92b998f\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.1] C:\Users\fikneader\.android\build-cache\7f4da9c2fd23484c443aff75830f82adf3b97011\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.1] C:\Users\fikneader\.android\build-cache\909259b6ade528322bab76f68873d04c50681111\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.1] C:\Users\fikneader\.android\build-cache\78c44565eb897b46c7f606a9c13524c7a1c18b20\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.1.0] C:\Users\fikneader\Documents\Umicon\Umicon\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:appcompat-v7:25.1.1] C:\Users\fikneader\.android\build-cache\d4848088e5541e466ac20beaad8df57679f655fb\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\fikneader\Documents\Umicon\Umicon\app\src\main\AndroidManifest.xml
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\fikneader\.android\build-cache\65b0cd07c9233c85a77a61bb1a468d7c02bd9964\output\AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\fikneader\.android\build-cache\65b0cd07c9233c85a77a61bb1a468d7c02bd9964\output\AndroidManifest.xml:33:19-68
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\fikneader\.android\build-cache\65b0cd07c9233c85a77a61bb1a468d7c02bd9964\output\AndroidManifest.xml:44:9-47:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\fikneader\.android\build-cache\65b0cd07c9233c85a77a61bb1a468d7c02bd9964\output\AndroidManifest.xml:46:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\fikneader\.android\build-cache\65b0cd07c9233c85a77a61bb1a468d7c02bd9964\output\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\fikneader\.android\build-cache\65b0cd07c9233c85a77a61bb1a468d7c02bd9964\output\AndroidManifest.xml:45:13-70
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\fikneader\.android\build-cache\90d15be35fd5fafe5b88ba6b35d1b9b0a005db75\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] C:\Users\fikneader\.android\build-cache\e6e8ae168fc989fb37f4c29157ce1f503d083b8e\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\fikneader\.android\build-cache\90d15be35fd5fafe5b88ba6b35d1b9b0a005db75\output\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\fikneader\.android\build-cache\90d15be35fd5fafe5b88ba6b35d1b9b0a005db75\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] C:\Users\fikneader\.android\build-cache\e6e8ae168fc989fb37f4c29157ce1f503d083b8e\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\fikneader\.android\build-cache\90d15be35fd5fafe5b88ba6b35d1b9b0a005db75\output\AndroidManifest.xml:24:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\fikneader\.android\build-cache\90d15be35fd5fafe5b88ba6b35d1b9b0a005db75\output\AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] C:\Users\fikneader\.android\build-cache\e6e8ae168fc989fb37f4c29157ce1f503d083b8e\output\AndroidManifest.xml:28:7-34:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\fikneader\.android\build-cache\90d15be35fd5fafe5b88ba6b35d1b9b0a005db75\output\AndroidManifest.xml:30:11-33
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\fikneader\.android\build-cache\90d15be35fd5fafe5b88ba6b35d1b9b0a005db75\output\AndroidManifest.xml:29:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\fikneader\.android\build-cache\90d15be35fd5fafe5b88ba6b35d1b9b0a005db75\output\AndroidManifest.xml:31:9-33:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\fikneader\.android\build-cache\90d15be35fd5fafe5b88ba6b35d1b9b0a005db75\output\AndroidManifest.xml:32:11-77
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\fikneader\.android\build-cache\90d15be35fd5fafe5b88ba6b35d1b9b0a005db75\output\AndroidManifest.xml:32:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\fikneader\.android\build-cache\90d15be35fd5fafe5b88ba6b35d1b9b0a005db75\output\AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] C:\Users\fikneader\.android\build-cache\e6e8ae168fc989fb37f4c29157ce1f503d083b8e\output\AndroidManifest.xml:36:7-39:37
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\fikneader\.android\build-cache\90d15be35fd5fafe5b88ba6b35d1b9b0a005db75\output\AndroidManifest.xml:38:11-33
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\fikneader\.android\build-cache\90d15be35fd5fafe5b88ba6b35d1b9b0a005db75\output\AndroidManifest.xml:39:11-35
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\fikneader\.android\build-cache\90d15be35fd5fafe5b88ba6b35d1b9b0a005db75\output\AndroidManifest.xml:37:11-82
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.0.2] C:\Users\fikneader\.android\build-cache\3de7455cd9f240a1db091d327555d97f2a32b58c\output\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.0.2] C:\Users\fikneader\.android\build-cache\3de7455cd9f240a1db091d327555d97f2a32b58c\output\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.0.2] C:\Users\fikneader\.android\build-cache\3de7455cd9f240a1db091d327555d97f2a32b58c\output\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.0.2] C:\Users\fikneader\.android\build-cache\3de7455cd9f240a1db091d327555d97f2a32b58c\output\AndroidManifest.xml:20:19-85
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:23:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:25:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:28:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:32:9-41:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:35:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:33:13-78
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:36:13-40:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:37:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:37:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:38:17-86
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:38:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:39:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:46:13-86
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:51:9-57:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:52:13-77
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:54:13-56:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:54:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:55:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\fikneader\.android\build-cache\b9e2dcd06ee655272748a1e7744612cb79b64eb3\output\AndroidManifest.xml:55:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.0.2] C:\Users\fikneader\.android\build-cache\ac4dbb4f763b389d5f428bb93babce2846f0e772\output\AndroidManifest.xml:7:9-11:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.0.2] C:\Users\fikneader\.android\build-cache\ac4dbb4f763b389d5f428bb93babce2846f0e772\output\AndroidManifest.xml:8:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.0.2] C:\Users\fikneader\.android\build-cache\ac4dbb4f763b389d5f428bb93babce2846f0e772\output\AndroidManifest.xml:10:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.0.2] C:\Users\fikneader\.android\build-cache\ac4dbb4f763b389d5f428bb93babce2846f0e772\output\AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.0.2] C:\Users\fikneader\.android\build-cache\ac4dbb4f763b389d5f428bb93babce2846f0e772\output\AndroidManifest.xml:9:13-58
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\fikneader\.android\build-cache\3a149aa6e16596284c9ece8a94b09df23251b77f\output\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\fikneader\.android\build-cache\3a149aa6e16596284c9ece8a94b09df23251b77f\output\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\fikneader\.android\build-cache\3a149aa6e16596284c9ece8a94b09df23251b77f\output\AndroidManifest.xml:22:13-58

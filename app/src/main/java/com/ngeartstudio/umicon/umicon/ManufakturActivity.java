@@ -6,13 +6,16 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class ManufakturActivity extends AppCompatActivity {
     private EditText biayaKeluar,jumlahProduk, upahTenaga,biayaTransportasi, keuntungan;
@@ -52,6 +55,33 @@ public class ManufakturActivity extends AppCompatActivity {
                 String biayatransportasi = biayaTransportasi.getText().toString().trim();
                 String untung = keuntungan.getText().toString().trim();
 
+                if (TextUtils.isEmpty(jumlahproduk)) {
+                    Toast.makeText(getApplicationContext(), "Masukan Jumlah Produk !", Toast.LENGTH_SHORT).show();
+                    requestFocus(jumlahProduk);
+                    return;
+                }
+
+                if (TextUtils.isEmpty(biayakeluar)) {
+                    Toast.makeText(getApplicationContext(), "Masukan Biaya Keluar !", Toast.LENGTH_SHORT).show();
+                    requestFocus(biayaKeluar);
+                    return;
+                }
+                if (TextUtils.isEmpty(upahtenaga)) {
+                    Toast.makeText(getApplicationContext(), "Masukan Upah Tenaga !", Toast.LENGTH_SHORT).show();
+                    requestFocus(upahTenaga);
+                    return;
+                }
+                if (TextUtils.isEmpty(biayatransportasi)) {
+                    Toast.makeText(getApplicationContext(), "Masukan Biaya Transportasi !", Toast.LENGTH_SHORT).show();
+                    requestFocus(biayaTransportasi);
+                    return;
+                }
+                if (TextUtils.isEmpty(untung)) {
+                    Toast.makeText(getApplicationContext(), "Masukan Keuntungan !", Toast.LENGTH_SHORT).show();
+                    requestFocus(keuntungan);
+                    return;
+                }
+
                 long jp = Long.parseLong(jumlahproduk);
                 long bk = Long.parseLong(biayakeluar);
                 long ut = Long.parseLong(upahtenaga);
@@ -70,6 +100,11 @@ public class ManufakturActivity extends AppCompatActivity {
                             public void onClick(DialogInterface dialog,
                                                 int which) {
                                 Log.e("info", "OK");
+                                jumlahProduk.setText("");
+                                biayaKeluar.setText("");
+                                upahTenaga.setText("");
+                                biayaTransportasi.setText("");
+                                keuntungan.setText("");
                             }
                         });
                 builder.show();
@@ -80,5 +115,10 @@ public class ManufakturActivity extends AppCompatActivity {
         });
 
 
+    }
+    private void requestFocus(View view) {
+        if (view.requestFocus()) {
+            getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_VISIBLE);
+        }
     }
 }

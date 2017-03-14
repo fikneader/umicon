@@ -1,7 +1,27 @@
 [
     {
+        "merged": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_error.png",
+        "source": "C:\\Users\\fikneader\\.android\\build-cache\\7ec13ecc2acab54b0572133fb56392159ea2faec\\output\\res\\drawable-xxhdpi\\ic_error.png"
+    },
+    {
+        "merged": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_navigation_check.png",
+        "source": "C:\\Users\\fikneader\\.android\\build-cache\\7ec13ecc2acab54b0572133fb56392159ea2faec\\output\\res\\drawable-xxhdpi\\ic_navigation_check.png"
+    },
+    {
+        "merged": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\materi.png",
+        "source": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\src\\main\\res\\drawable-xxhdpi\\materi.png"
+    },
+    {
+        "merged": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\home.png",
+        "source": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\src\\main\\res\\drawable-xxhdpi\\home.png"
+    },
+    {
         "merged": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_discount.png",
         "source": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\src\\main\\res\\drawable-xxhdpi\\ic_discount.png"
+    },
+    {
+        "merged": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\info.png",
+        "source": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\src\\main\\res\\drawable-xxhdpi\\info.png"
     },
     {
         "merged": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_movie.png",
@@ -10,6 +30,18 @@
     {
         "merged": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_food.png",
         "source": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\src\\main\\res\\drawable-xxhdpi\\ic_food.png"
+    },
+    {
+        "merged": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\user.png",
+        "source": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\src\\main\\res\\drawable-xxhdpi\\user.png"
+    },
+    {
+        "merged": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\setting.png",
+        "source": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\src\\main\\res\\drawable-xxhdpi\\setting.png"
+    },
+    {
+        "merged": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\profile.png",
+        "source": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\src\\main\\res\\drawable-xxhdpi\\profile.png"
     },
     {
         "merged": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_travel.png",

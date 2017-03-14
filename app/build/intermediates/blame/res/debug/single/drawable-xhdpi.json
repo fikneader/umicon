@@ -12,7 +12,15 @@
         "source": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\src\\main\\res\\drawable-xhdpi\\ic_discount.png"
     },
     {
+        "merged": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_error.png",
+        "source": "C:\\Users\\fikneader\\.android\\build-cache\\7ec13ecc2acab54b0572133fb56392159ea2faec\\output\\res\\drawable-xhdpi\\ic_error.png"
+    },
+    {
         "merged": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_food.png",
         "source": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\src\\main\\res\\drawable-xhdpi\\ic_food.png"
+    },
+    {
+        "merged": "C:\\Users\\fikneader\\Documents\\Umicon\\Umicon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_navigation_check.png",
+        "source": "C:\\Users\\fikneader\\.android\\build-cache\\7ec13ecc2acab54b0572133fb56392159ea2faec\\output\\res\\drawable-xhdpi\\ic_navigation_check.png"
     }
 ]
